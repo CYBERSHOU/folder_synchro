@@ -4,6 +4,6 @@ This is just a simple script to keep two folders synchronized following the lead
 
 e.g. 
 ```bash
-python .\folder_synchro.py .\testSource\ .\testReplica\ 3 .\synchroLog.txt
+python .\folder_synchro.py .\source\ .\replica\ 3 .\log.txt
 ```
 The arguments are (in order) the source folder path, the replica folder path, the update delay in seconds, the log file path.
